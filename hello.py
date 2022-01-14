@@ -8,4 +8,4 @@ logging.basicConfig(level=logging.DEBUG)
 @app.route('/')
 def hello():
     logging.debug("saying hello")
-    return 'Hello Joshua! '
+    return 'This is a test Heroku app.'
